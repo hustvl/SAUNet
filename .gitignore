@@ -137,7 +137,6 @@ exp/
 pretrain/
 
 # to do list
-*.md
 *.jpg
 *.png
 *.svg
