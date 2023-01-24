@@ -138,7 +138,6 @@ pretrain/
 
 # to do list
 *.jpg
-*.png
 *.svg
 *.txt
 *.tar
