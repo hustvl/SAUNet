@@ -14,8 +14,12 @@ Arxiv Preprint ([arxiv 2301.10208](https://arxiv.org/abs/2301.10208))
 
 #
 
+|                          *Scene 2*                           |                          *Scene 3*                           |                          *Scene 5*                           |                          *Scene 7*                           |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="figures/scene2 00_00_00-00_00_30.gif"  height=170 width=170> | <img src="figures/scene3 00_00_00-00_00_30.gif" width=170 height=170> | <img src="figures/scene5 00_00_00-00_00_30.gif" width=170 height=170> | <img src="figures/scene7 00_00_00-00_00_30.gif" width=170 height=170> |
+
 <p align="center">
-<img src="SAUNet.png" width=100%>
+<img src="figures/SAUNet.png" width=100%>
 </p>
 
 ### Quantitative Comparison on Simulation Dataset
