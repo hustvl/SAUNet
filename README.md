@@ -8,7 +8,7 @@
 
 (\*) equal contribution, (<sup>:email:</sup>) corresponding author.
 
-Arxiv Preprint
+Arxiv Preprint ([arxiv 2301.10208](https://arxiv.org/abs/2301.10208))
 
 </div>
 
@@ -158,3 +158,12 @@ SAUNet is released under the [MIT License](LICENSE).
 ### Citation
 
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil: :)
+
+```BibTeX
+@article{SAUNet,
+  title={A Simple Adaptive Unfolding Network for Hyperspectral Image Reconstruction},
+  author={Wang, Junyu and Wang, Shijie and Liu, Wenyu and Zheng, Zengqiang and Wang, Xinggang},
+  journal={arXiv preprint arXiv:2301.10208},
+  year={2023}
+}
+```
