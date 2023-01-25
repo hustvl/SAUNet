@@ -23,7 +23,7 @@ Arxiv Preprint ([arxiv 2301.10208](https://arxiv.org/abs/2301.10208))
 </p>
 
 ### Quantitative Comparison on Simulation Dataset
-> Results from the [paper]
+> Results from the [paper](https://arxiv.org/abs/2301.10208)
 
 Models and visualization results are coming soon.
 |                            Method                            | Params (M) | FLOPS (G) | PSNR  | SSIM  |                          Model Zoo                           |                      Simulation  Result                      |                         Real  Result                         |
