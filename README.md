@@ -41,7 +41,8 @@ Models and visualization results are available at [here](https://github.com/hust
   - Training GPU-hours and Inference Speed are obtained by a Tesla v100 GPU.  
   - Training GPU-hours only includes the time of forward and backward propagation.  
   - Inference Speed averages the input measurement of 256 x 310 at 800 times with batchsize = 1.
-</details>
+</details>  
+
 ### Create Environment:
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
