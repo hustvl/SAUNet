@@ -96,17 +96,17 @@ Download the dataset from https://github.com/mengziyi64/TSA-Net, put the dataset
 Please use checkpointing (--cp) when running out of memory.
 ```python
 #SAUNet-1stg
-python simu_train.py --method saunet_1stg --outf ./exp/simu_saunet_1stg/ --seed 24 --gpu_id 0
+python simu_train.py --method saunet_1stg --outf ./exp/simu_saunet_1stg/ --seed 42 --gpu_id 0
 #SAUNet-2stg
-python simu_train.py --method saunet_2stg --outf ./exp/simu_saunet_2stg/ --seed 24 --gpu_id 0
+python simu_train.py --method saunet_2stg --outf ./exp/simu_saunet_2stg/ --seed 42 --gpu_id 0
 #SAUNet-3stg
-python simu_train.py --method saunet_3stg --outf ./exp/simu_saunet_3stg/ --seed 24 --gpu_id 0
+python simu_train.py --method saunet_3stg --outf ./exp/simu_saunet_3stg/ --seed 42 --gpu_id 0
 #SAUNet-5stg
-python simu_train.py --method saunet_5stg --outf ./exp/simu_saunet_5stg/ --seed 24 --gpu_id 0
+python simu_train.py --method saunet_5stg --outf ./exp/simu_saunet_5stg/ --seed 42 --gpu_id 0
 #SAUNet-9stg 
-python simu_train.py --method saunet_9stg --outf ./exp/simu_saunet_9stg/ --seed 24 --gpu_id 0 
+python simu_train.py --method saunet_9stg --outf ./exp/simu_saunet_9stg/ --seed 42 --gpu_id 0 
 #SAUNet-13stg 
-python simu_train.py --method saunet_13stg --outf ./exp/simu_saunet_13stg/ --seed 24 --gpu_id 0 
+python simu_train.py --method saunet_13stg --outf ./exp/simu_saunet_13stg/ --seed 42 --gpu_id 0 
 ```
 #### Testing 
 a). Test our models on the HSI dataset. The results will be saved in 'code/evaluation/testing_result/' in the MatFile format. For example, we test the SAUNet-3stg:
@@ -120,17 +120,17 @@ b). Calculate quality assessment. We use the same quality assessment code as DGS
 Please use checkpointing (--cp) when running out of memory.
 ```python
 #SAUNet-1stg
-python real_train.py --method saunet_1stg --outf ./exp/real_saunet_1stg/ --seed 24 --gpu_id 0 --isTrain
+python real_train.py --method saunet_1stg --outf ./exp/real_saunet_1stg/ --seed 42 --gpu_id 0 --isTrain
 #SAUNet-2stg
-python real_train.py --method saunet_2stg --outf ./exp/real_saunet_2stg/ --seed 24 --gpu_id 0 --isTrain
+python real_train.py --method saunet_2stg --outf ./exp/real_saunet_2stg/ --seed 42 --gpu_id 0 --isTrain
 #SAUNet-3stg
-python real_train.py --method saunet_3stg --outf ./exp/real_saunet_3stg/ --seed 24 --gpu_id 0 --isTrain
+python real_train.py --method saunet_3stg --outf ./exp/real_saunet_3stg/ --seed 42 --gpu_id 0 --isTrain
 #SAUNet-5stg
-python real_train.py --method saunet_5stg --outf ./exp/real_saunet_5stg/ --seed 24 --gpu_id 0 --isTrain
+python real_train.py --method saunet_5stg --outf ./exp/real_saunet_5stg/ --seed 42 --gpu_id 0 --isTrain
 #SAUNet-9stg 
-python real_train.py --method saunet_9stg --outf ./exp/real_saunet_9stg/ --seed 24 --gpu_id 0 --isTrain
+python real_train.py --method saunet_9stg --outf ./exp/real_saunet_9stg/ --seed 42 --gpu_id 0 --isTrain
 #SAUNet-13stg 
-python real_train.py --method saunet_13stg --outf ./exp/real_saunet_13stg/ --seed 24 --gpu_id 0 --isTrain
+python real_train.py --method saunet_13stg --outf ./exp/real_saunet_13stg/ --seed 42 --gpu_id 0 --isTrain
 ```
 #### Testing 
 a). Test our models on the HSI dataset. The results will be saved in 'code/evaluation/testing_result/' in the MatFile format. For example, we test the SAUNet-3stg:
