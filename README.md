@@ -25,21 +25,28 @@ Arxiv Preprint ([arxiv 2301.10208](https://arxiv.org/abs/2301.10208))
 ### Quantitative Comparison on Simulation Dataset
 > Results from the [paper](https://arxiv.org/abs/2301.10208)
 
-Models and visualization results are coming soon.
-|                            Method                            | Params (M) | FLOPS (G) | PSNR  | SSIM  |                          Model Zoo                           |                      Simulation  Result                      |                         Real  Result                         |
-| :----------------------------------------------------------: | :--------: | :-------: | :---: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|       [SAUNet-1stg]()        |    0.78    |   9.52   | 34.84 | 0.946 | - | - | - |
-|       [SAUNet-2stg]()        |    1.50    |   17.91   | 36.73 | 0.961 | - | - | - |
-|       [SAUNet-3stg]()        |    2.23    |   26.31   | 37.54 | 0.966 | - | - | - |
-|       [SAUNet-5stg]()        |    3.68    |   43.10   | 38.16 | 0.970 | - | - | - |
-|       [SAUNet-9stg]()        |    6.59    |   76.68   | 38.57 | 0.973 | - | - | - |
-|       [SAUNet-13stg]()       |    9.50    |   110.25  | 38.79 | 0.974 | - | - | - |
+Models and visualization results are available at [here](https://github.com/hustvl/Storage/releases/), [Google Drive](https://drive.google.com/drive/folders/1S001KwzzbyFy90tBoe5deSopUoS1RbJ5?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/133CUEhuJ1hDwSi60_X14EA?pwd=moma) (password: moma).
+|                            Method                            | Params (M) | FLOPS (G) | PSNR  | SSIM  |                   Training GPU-hours                          |                   Inference Speed (FPS)                      |
+| :----------------------------------------------------------: | :--------: | :-------: | :---: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|       [SAUNet-1stg](https://github.com/hustvl/Storage/releases/download/v1.0/1stg_model_epoch_284.pth)        |    0.78    |   9.52   | 34.84 | 0.946 | 14.3 | 56.4 |
+|       [SAUNet-2stg](https://github.com/hustvl/Storage/releases/download/v1.0/2stg_model_epoch_264.pth)        |    1.50    |   17.91   | 36.73 | 0.961 | 29.3 | 31.5 |
+|       [SAUNet-3stg](https://github.com/hustvl/Storage/releases/download/v1.0/3stg_model_epoch_281.pth)        |    2.23    |   26.31   | 37.54 | 0.966 | 43.9 | 22.0 |
+|       [SAUNet-5stg](https://github.com/hustvl/Storage/releases/download/v1.0/5stg_model_epoch_282.pth)        |    3.68    |   43.10   | 38.16 | 0.970 | 71.5 | 13.1 |
+|       [SAUNet-9stg](https://github.com/hustvl/Storage/releases/download/v1.0/9stg_model_epoch_271.pth)        |    6.59    |   76.68   | 38.57 | 0.973 | 149.0 | 7.8 |
+|       [SAUNet-13stg](https://github.com/hustvl/Storage/releases/download/v1.0/13stg_model_epoch_247.pth)       |    9.50    |   110.25  | 38.79 | 0.974 | 215.0 | 5.5 |
 
+<details>
+  <summary>Table Notes (click to expand)</summary>
+  
+  - Training GPU-hours and Inference Speed are obtained by a Tesla v100 GPU.  
+  - Training GPU-hours only includes the time of forward and backward propagation.  
+  - Inference Speed averages the input measurement of 256 x 310 at 800 times with batchsize = 1.
+</details>
 ### Create Environment:
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 
-- [PyTorch >= 1.3](https://pytorch.org/)
+- [PyTorch >= 1.7](https://pytorch.org/)
 
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
 
